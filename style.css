@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bgImg{
+    height:100vh;
+    width:100%;
+    background-image: url("/images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+li{
+    display: flex;
+    padding-left: 60px;
+}
+li a{
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+    font-size:16px;
+    font-weight: bolder;
+    transition: color 0.3s ease-out;
+}
+li a:hover{
+    color: rgb(234, 15, 63);
+}
+
+h2{
+    color:white;
+    font-size:35px;
+    letter-spacing: 2.5px;
+    margin-left: 50px;
+    margin-right: 13%;
+    cursor: pointer;
+}
+
+span{
+    color:rgb(234, 15, 63);
+}
+.sub{
+    background-color: rgb(234, 15, 63);
+    height: 45px;
+    width:130px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size:15px;
+    cursor: pointer;
+    transition: transform 0.5s ;
+}
+
+.sub:hover{
+    transform: scale(1.2);
+}
+
+#right{
+    position: relative;
+    left: 270px;
+}
+
+.hello{
+    color: rgb(241, 190, 255);
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.main{
+    padding: 130px 115px;
+    line-height: 1.3;
+}
+
+.cont-head{
+    color: white;
+    font-size: 80px;
+}
+
+.who-am-i{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-left: 7px;
+}
+
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width:29%;
+    height:42px;
+    border:3px solid rgb(234, 15, 63);
+    border-radius: 50px;
+    padding: 0 5px;
+}
+
+input[type="email"]{
+    border:none;
+    outline: none;
+    padding-left: 10px;
+}
+input[type="email"]::placeholder{
+    color: gray;
+}
+.start-btn{
+    width:32%;
+    height:37px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(234, 15, 63);
+    border: none;
+    cursor: pointer;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: #191919;
+    height:80vh;
+    
+}
+
+.firstHalf{
+    margin-right: 75px;
+}
+
+.secondHalf{
+    width:40%;
+}
+
+#about-img{
+    width:500px;
+}
+
+#about-head{
+    font-size: 90px;
+    color: white;
+}
+
+.about-sub{
+    color: white;
+    font-size: 25px;
+    padding: 15px 0 25px 0;
+}
+
+.about-cont{
+    font-size: 16px;
+    color: rgb(241, 190, 255);
+    letter-spacing: 3px;
+    line-height: 2;
+    font-weight: 200;
+    margin-bottom: 60px;
+}
+
+#talk{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: rgb(234, 15, 63);
+    color: white;
+    height:40px;
+    width:120px;
+    font-weight: bold;
+}
+
+.services{
+    background-color: #101010;
+    height:760px;
+}
+
+.service-list{
+    display: flex;
+    justify-content: center;
+}
+
+.serv-head{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 80px;
+    color: white;
+}
+
+.box{
+    background-color: #191919;
+    width:25%;
+    height:360px;
+    padding-top: 50px;
+    text-align: center;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+.fas{
+    padding-bottom: 30px;
+    color: rgb(234, 15, 63);
+}
+
+.service-head{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+i{
+    font-size: 50px;
+}
+
+.card-text{
+    color:rgb(241, 190, 255);
+    line-height: 2;
+    width:80%;
+    margin: 0 auto 30px auto;
+}
+
+.read-more{
+    text-decoration: none;
+    background-color: rgb(234, 15, 63);
+    color: white;
+    font-size:16px;
+    padding: 13px 32px;
+    font-weight: bold;
+    border-radius: 100px;
+}
