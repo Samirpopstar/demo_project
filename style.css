@@ -242,4 +242,94 @@ i{
     padding: 13px 32px;
     font-weight: bold;
     border-radius: 100px;
+    transition: all 0.2s ease-in;
+    border: 2px solid rgb(234, 15, 63);
+}
+
+.read-more:hover{
+    background-color: #101010;
+    border: 2px solid red;
+}
+
+.hire{
+    height:300px;
+    background-color: #191919;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+.hire-me{
+    margin-bottom: 30px;
+}
+
+.hire-btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(234, 15, 63);
+    height:43px;
+    width:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s;
+    border: 2px solid rgb(234, 15, 63);
+}
+
+.hire-btn:hover{
+    background-color: #101010;
+    border: 2px solid red;
+}
+
+.my-socials{
+    color: white;
+    background-color: #101010;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 17px;
+}
+
+.social-para{
+    text-align: center;
+    width:30%;
+    line-height: 1.8;
+    padding-bottom: 19px;
+    font-size: 16px;
+}
+
+.socials-list{
+    display: flex;
+}
+
+.fab{
+    background-color: rgb(234, 15, 63);
+    font-size: 21px;
+    height: 45px;
+    width:45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 50px;
+    transition: transform 0.3s; 
+}
+
+.fab:hover{
+    transform: scale(1.25);
+    cursor: pointer;
 }
